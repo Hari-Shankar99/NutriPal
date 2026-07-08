@@ -1,0 +1,6 @@
+[submodule "nutripal-app"]
+	path = nutripal-app
+	url = git@github-personal:Hari-Shankar99/nutripal-app.git
+[submodule "nutripal-backend"]
+	path = nutripal-backend
+	url = git@github-personal:Hari-Shankar99/nutripal-backend.git
