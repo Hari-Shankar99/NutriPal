@@ -2,9 +2,6 @@
 .DS_Store
 Thumbs.db
 
-# Design files (local only)
-*.pen
-
 # Dependencies
 node_modules/
 .yarn
