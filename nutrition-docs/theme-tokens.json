@@ -1,0 +1,138 @@
+{
+  "$meta": {
+    "app": "NutriPal",
+    "version": "1.0.0",
+    "description": "Design token reference for NutriPal — Indian diet clean-bulk meal planner",
+    "lastUpdated": "2026-06-21"
+  },
+
+  "color": {
+    "brand": {
+      "primary":        { "value": "#16A34A", "usage": "CTAs, active tab, calorie numbers, avatar, icons, macro card fill" },
+      "primaryLight":   { "value": "#4ADE80", "usage": "Loader accent dot" },
+      "primaryLighter": { "value": "#BBF7D0", "usage": "Loader fading dot" },
+      "primaryTint":    { "value": "#F0FDF4", "usage": "Green tint backgrounds, breakfast slot icon bg" },
+      "primaryMuted":   { "value": "#DCFCE7", "usage": "Active tab pill background" }
+    },
+    "background": {
+      "screen":  { "value": "#F8FAFC", "usage": "All screen backgrounds" },
+      "surface": { "value": "#FFFFFF", "usage": "Cards, input fields, bottom bar, modals" },
+      "subtle":  { "value": "#F1F5F9", "usage": "Dividers, unselected circle backgrounds" },
+      "muted":   { "value": "#E2E8F0", "usage": "Progress track, placeholder backgrounds" }
+    },
+    "text": {
+      "primary":   { "value": "#1E293B", "usage": "Headers, card titles, greeting" },
+      "secondary": { "value": "#64748B", "usage": "Subtitles, body text, recipe descriptions" },
+      "muted":     { "value": "#94A3B8", "usage": "Inactive tabs, placeholders, helper text" },
+      "disabled":  { "value": "#CBD5E1", "usage": "Future day labels, disabled states" },
+      "deep":      { "value": "#0F172A", "usage": "App name/logo wordmark" },
+      "onPrimary": { "value": "#FFFFFF", "usage": "Text on green backgrounds" },
+      "onDark":    { "value": "#FFFFFF", "usage": "Text inside toast, dark surfaces" }
+    },
+    "slot": {
+      "breakfast": { "bg": "#F0FDF4", "icon": "#16A34A", "usage": "Breakfast meal slot icon box" },
+      "lunch":     { "bg": "#FFFBEB", "icon": "#D97706", "usage": "Lunch meal slot icon box" },
+      "snack":     { "bg": "#FFF7ED", "icon": "#EA580C", "usage": "Snack meal slot icon box" },
+      "dinner":    { "bg": "#F0F9FF", "icon": "#0284C7", "usage": "Dinner meal slot icon box" }
+    },
+    "macro": {
+      "cardFill":      { "value": "#16A34A", "usage": "Macro hero card background" },
+      "frostedText":   { "value": "#ffffffcc", "usage": "Subdued label text on green card (80% opacity)" },
+      "frostedTile":   { "value": "#ffffff33", "usage": "Stat tile background on green card (20% opacity)" }
+    },
+    "semantic": {
+      "success":      { "value": "#16A34A", "tint": "#F0FDF4" },
+      "error":        { "value": "#EF4444", "tint": "#FEF2F2" },
+      "errorVibrant": { "value": "#F43F5E", "tint": "#FFF1F2" },
+      "warning":      { "value": "#F59E0B", "tint": "#FFFBEB" },
+      "info":         { "value": "#3B82F6", "tint": "#EFF6FF" }
+    },
+    "border": {
+      "default":  { "value": "#E2E8F0", "usage": "Card outlines, dividers" },
+      "subtle":   { "value": "#F1F5F9", "usage": "Row separators inside cards" },
+      "upload":   { "value": "#CBD5E1", "usage": "Dashed border on empty image upload" }
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "base": "Inter",
+      "fallback": "system-ui, -apple-system, sans-serif"
+    },
+    "scale": {
+      "appTitle":     { "size": 30, "weight": "700", "usage": "Logo on login / splash screen" },
+      "screenHeader": { "size": 24, "weight": "700", "usage": "\"My Recipes\", \"Settings\" page titles" },
+      "sectionHeader":{ "size": 20, "weight": "700", "usage": "\"Today's Meals\", greeting text" },
+      "macroHero":    { "size": 34, "weight": "700", "usage": "Calorie % inside macro card" },
+      "cardTitle":    { "size": 16, "weight": "600", "usage": "Meal slot name, recipe card title" },
+      "body":         { "size": 14, "weight": "400", "usage": "Descriptions, subtitles, body copy" },
+      "bodyMedium":   { "size": 15, "weight": "500", "usage": "Settings row labels" },
+      "label":        { "size": 13, "weight": "600", "usage": "Calorie amounts, input labels, section CAPS labels" },
+      "tag":          { "size": 12, "weight": "500", "usage": "Filter chips, badge text, helper text" },
+      "tabLabel":     { "size": 10, "weight": "600", "usage": "Bottom nav tab labels (uppercase)" },
+      "micro":        { "size":  9, "weight": "500", "usage": "Week strip kcal values" },
+      "sectionCaps":  { "size": 11, "weight": "600", "usage": "Settings section headers (ALL CAPS)" }
+    }
+  },
+
+  "spacing": {
+    "screenPaddingH": { "value": 20,  "usage": "Horizontal screen padding" },
+    "cardPaddingInner":{ "value": 14, "usage": "Inside meal cards" },
+    "cardPaddingLarge":{ "value": 24, "usage": "Inside macro hero card" },
+    "gapList":        { "value": 12,  "usage": "Between meal / recipe cards" },
+    "gapCard":        { "value": 8,   "usage": "Between elements within a card" },
+    "gapSection":     { "value": 12,  "usage": "Between major sections on screen" },
+    "gapInline":      { "value": 4,   "usage": "Tight gaps (title + subtitle pairs)" },
+    "gapIcon":        { "value": 6,   "usage": "Icon + label pairs" }
+  },
+
+  "radius": {
+    "macroCard":   { "value": 20, "usage": "Macro hero card" },
+    "card":        { "value": 16, "usage": "Meal / recipe cards, week strip" },
+    "slotIconBox": { "value": 14, "usage": "Meal slot icon container" },
+    "input":       { "value": 12, "usage": "Input fields, CTA buttons, settings cards" },
+    "pill":        { "value": 18, "usage": "Filter pills active/inactive" },
+    "avatar":      { "value": 20, "usage": "40×40 avatar → perfect circle" },
+    "statTile":    { "value": 12, "usage": "Frosted stat tiles inside macro card" },
+    "toast":       { "value": 14, "usage": "Toast notification pill" },
+    "tabPill":     { "value": 22, "usage": "Active tab pill in bottom nav" },
+    "badge":       { "value": 6,  "usage": "Small slot type / status badges" }
+  },
+
+  "shadow": {
+    "card":    { "y": 1, "blur": 4,  "color": "#00000008", "usage": "Input / surface cards" },
+    "cta":     { "y": 4, "blur": 16, "color": "#16A34A20", "usage": "Primary green CTA button glow" },
+    "toast":   { "y": 8, "blur": 24, "color": "#00000030", "usage": "Toast notification lift" },
+    "strip":   { "y": 2, "blur": 8,  "color": "#0000000A", "usage": "Week strip card shadow" }
+  },
+
+  "size": {
+    "screen": { "width": 390, "height": 844, "usage": "iPhone 14 / standard mobile canvas" },
+    "bottomBar": { "height": 72 },
+    "slotIconBox": { "width": 52, "height": 52 },
+    "avatar": { "width": 40, "height": 40 },
+    "primaryButton": { "height": 52 },
+    "searchBar": { "height": 48 },
+    "filterPill": { "height": 36 },
+    "mealCard": { "height": 80 },
+    "weekDayColumn": { "width": 44 },
+    "weekDayCircle": { "width": 32, "height": 32 }
+  },
+
+  "icon": {
+    "library": "lucide",
+    "sizes": {
+      "nav": 22,
+      "card": 20,
+      "inline": 18,
+      "small": 16,
+      "micro": 14
+    }
+  },
+
+  "animation": {
+    "loaderFile": "assets/loader.lottie",
+    "toastDuration": 3000,
+    "toastFadeMs": 300
+  }
+}
